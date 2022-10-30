@@ -1,7 +1,7 @@
 module.exports.home=function(req,res){
 
 
-return res.render('home');
+return res.redirect("/users/sign-in");
 
 
 }
